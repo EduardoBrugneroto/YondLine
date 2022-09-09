@@ -1,0 +1,74 @@
+@font-face{
+  font-family: bien-book;
+  src: url('../fonts/Biennale/Demo_Fonts/Fontspring-DEMO-biennale-book.otf');
+}
+@font-face{
+  font-family: montserrat;
+  src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+section {
+  display: flex;
+  height: 180px;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 10px;
+}
+img {
+  width: 200px;
+  margin-right: 660px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items:center;
+}
+li{
+  padding: 0 40px;
+  font-size: 19px;
+  /* font-family: bien-book; */
+  font-family: montserrat;
+  transition: 400ms all;
+}
+a{
+  position: relative;
+}
+.li-a {
+  color: black;
+  text-decoration: none;
+  transition: 300ms all ease;
+}
+.li-a:hover {
+  color: #0000FF
+}
+.cttA {
+  color: white;
+  text-decoration: none;
+}
+.li-a:after{
+  content: '';
+  position: absolute;
+  background-color: #0000FF;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 300ms all ease;
+}
+.li-a:hover:after {
+  width: 100%;
+}
+.headerBtnContato {
+  background-color: #0000FF;
+  border-radius: 30px;
+  padding: 15px 25px;
+  margin-left: 10px;
+  transition: 300ms all ease;
+  font-weight: bold;
+}
+.headerBtnContato:hover {
+  transform: scale(1.08);
+  background-color: #3f3fff;
+  cursor: pointer;
+}
+
