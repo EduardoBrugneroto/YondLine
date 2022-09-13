@@ -20,12 +20,12 @@ section {
   justify-content: center;
 }
 .conteudo-left {
-  margin-right: -160px;
+  margin-right: -180px;
   width: 49%;
 }
 h1 {
   text-align: left;
-  line-height: 100px;
+  line-height: 80px;
   letter-spacing: 1px;
   color: #111827;
   font-size: 62px;
@@ -76,7 +76,7 @@ span{
 img{
   width: 850px;
   height: 700px;
-  margin-right: -242px;
+  margin-right: -220px;
   padding: 40px;
   margin-top: -40px;
 }
