@@ -1,3 +1,4 @@
+import { ProjetosComponent } from './../projetos/projetos.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

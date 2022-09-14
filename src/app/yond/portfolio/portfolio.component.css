@@ -123,15 +123,17 @@ select {
   outline: none;
   border-radius: 40px;
   border: none;
-  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.212);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.212);
   transition: .5s all;
   margin-right: 40px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.452);
+  background-color: #FFFF;
+  padding: 6px;
 }
 
 select:hover {
-  box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.212);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.212);
 }
 
 option {
@@ -153,8 +155,19 @@ option {
 .footer-div{
   margin-left: 100px;
 }
-.footer-h1, .footer-li{
+.footer-h1{
   color: white;
+}
+.footer-li{
+  line-height: 20px !important;
+  color:#FFFF;
+  font-size: 16px;
+  list-style: none;
+  margin-left: -35px;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
 }
 .footer-ul{
   margin-top: -150px;
@@ -168,4 +181,11 @@ option {
   text-align: center;
   font-size: 14px;
 }
+.mat-ink-bar{
+  background-color: #0000FF;
+}
 
+.mat-tab-group {
+  min-width: 2px;
+  margin-bottom: 48px;
+}

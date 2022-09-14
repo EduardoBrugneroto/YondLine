@@ -10,6 +10,10 @@ export class ProjetosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    ProjetosComponent
   }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+}
 }
