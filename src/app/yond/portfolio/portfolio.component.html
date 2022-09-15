@@ -15,7 +15,7 @@
 
 <h1 class="titulo">Projetos</h1>
 <div class="select">
-  <select name="filtro" id="">
+  <select (change)="onSelectChange($event)" name="filtro" id="">
     <option value="default">Filtrar</option>
     <option value="site">WebSite</option>
     <option value="design">Design</option>
@@ -25,7 +25,7 @@
 
 
 <div class="card">
-  <mat-card class="example-card">
+  <mat-card class="example-card" data-type="design">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Shiba Inu</mat-card-title>
@@ -34,7 +34,7 @@
     <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
   </mat-card>
 
-  <mat-card class="example-card">
+  <mat-card class="example-card" data-type="site">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Shiba Inu</mat-card-title>
@@ -43,7 +43,7 @@
     <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
   </mat-card>
 
-  <mat-card class="example-card">
+  <mat-card class="example-card" data-type="video">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Shiba Inu</mat-card-title>
@@ -51,16 +51,7 @@
     </mat-card-header>
     <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
   </mat-card>
-  <mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-    </mat-card-header>
-    <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-  </mat-card>
-
-  <mat-card class="example-card">
+  <mat-card class="example-card" data-type="video">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Shiba Inu</mat-card-title>
@@ -69,7 +60,16 @@
     <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
   </mat-card>
 
-  <mat-card class="example-card">
+  <mat-card class="example-card" data-type="site">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img class="card-img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  </mat-card>
+
+  <mat-card class="example-card" data-type="design">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>Shiba Inu</mat-card-title>
